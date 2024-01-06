@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(178, 208, 241);
+  }
+  
+  .mainpage-container {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    margin: 1.4%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  }
+  /* Mainpage designed and box shadow added. */
+  
+  .mp-top-container {
+    border-radius: 10px;
+    padding: 1%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Mainpage top container designed and display property added. */
+  
+  .mp-top-container h1 {
+    margin: 0% 1% 1% 1%;
+    font-weight: 600;
+    word-spacing: 5px;
+    color: rgb(6, 104, 153);
+  }
+  /* Top container header designed by adding margin and font property. */
+  
+  .mp-top-container h4 {
+    font-size: 25px;
+  }
+  
+  .mp-top-container p {
+    font-size: larger;
+  }
+  /* Top container paragraph tag designed with font property. */
+  
+  .user-input {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  /* User name input section designed */
+  
+  #input-box {
+    min-width: 50%;
+    margin: 10px;
+    font-size: large;
+    color: rgba(19, 15, 64, 1);
+    border: 1px solid rgba(19, 15, 64, 1);
+    border-radius: 2px;
+  }
+  /* User name input area designed with font size and color property */
+  
+  #input-enter {
+    background-color: rgb(98, 0, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    min-width: 111px;
+    font-size: medium;
+    font-weight: 500;
+  }
+  /* User name input button designed */
+  
+  button{
+    cursor: pointer;
+  }
+  
+  .blink-me {
+    color: rgba(232, 65, 24, 1);
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  /* span for bilnk */
+  
+  .mp-btm-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* buttom container */
+  
+  .mp-btm-container h1 {
+    margin: 2% 1% 1% 1%;
+    font-weight: 900;
+    word-spacing: 5px;
+    color: rgb(89, 0, 255);
+  }
+  /* header h1 */
+  
+  .mp-btm-container h4 {
+    margin: 1%;
+    padding: 1%;
+    font-size: larger;
+  }
+  /* header h4 */
+  
+  .catagory-btn {
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    gap: 30px 40px;
+  }
+  /* Catagory btn */
+  
+  .catagory-btn button {
+    border: 2px solid rgb(85, 78, 20);
+    border-radius: 2px;
+    color: rgb(8, 8, 8);
+    background-color: rgba(232, 248, 6, 0.966);
+    padding: 10px;
+    font-size: medium;
+    font-weight: 500;
+    width: 90%;
+  }
+  
+  #input-enter:hover {
+    background-color: rgb(245, 4, 136);
+  }
+  /* hover  effect */
+  
+  .catagory-btn button:hover {
+    background-color: rgb(241, 6, 84);
+    border-color: rgb(255, 0, 212);
+    
+  }
+  
+  /* animation */
+  @keyframes blink {
+    0% {
+      color: rgb(255, 0, 221);
+    }
+    50% {
+      color: rgb(247, 7, 7);
+    }
+    100% {
+      color: rgb(255, 0, 170);
+    }
+  }
+  
